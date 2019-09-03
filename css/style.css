@@ -1,0 +1,41 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.manu{
+	text-align: center;
+	padding: 25px;
+	background: #03A9F4;
+}
+.btn1,.btn2,.btn3,.btn4{
+	margin: 0 25px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border:1px solid #FF5722;
+	transition: 0.9s;
+	cursor: pointer;
+	position: relative;
+}
+.btn1,.btn2{
+	padding: 10px 30px;
+	font-weight: 700;
+
+}
+.btn4{
+	padding: 10px 25px;
+}
+.btn1:hover,.btn2:hover{
+	background: #FF5722;
+	color:#009688;
+
+}
+.btn3,.btn4{
+	color: #009688;
+	font-weight: 700;
+
+}
+.btn3:hover,.btn4:hover{
+	background: #FF5722;
+	color: black;
+}
